@@ -1,0 +1,28 @@
+{
+    "checks": {
+        "20 jobs": true,
+        "100 original resumes": true,
+        "700 profiles": true,
+        "100 links": true,
+        "Controlled demographic variations": true,
+        "SBERT token limit": true,
+        "E5 token limit": true,
+        "Job embedding row order": true,
+        "Resume embedding row order": true,
+        "SBERT embedding shapes": true,
+        "E5 embedding shapes": true,
+        "1200 original-augmented scores": true,
+        "28000 job-resume scores": true,
+        "1200 ranking comparisons": true,
+        "Unique similarity records": true,
+        "No missing experimental scores": true
+    },
+    "text_retention": {
+        "average_fraction": 0.7293383874905847,
+        "resumes_below_70_percent": 49
+    },
+    "warnings": [
+        "49 resumes retain less than 70% of original characters.",
+        "Manually inspect retained qualifications, demographic conflicts, personal identifiers, and dataset reuse permissions."
+    ]
+}

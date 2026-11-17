@@ -1,0 +1,72 @@
+{
+  "source": "https://huggingface.co/datasets/nonameee12233/job-resume-matching",
+  "raw_rows": {
+    "cv": 9544,
+    "job": 1167,
+    "matches": 122560
+  },
+  "columns": {
+    "cv": [
+      "candidate_id",
+      "source_row",
+      "target_position",
+      "resume_text",
+      "clean_skills",
+      "clean_skills_json",
+      "education_text",
+      "experience_text",
+      "years_experience",
+      "inferred_category",
+      "embedding"
+    ],
+    "job": [
+      "job_id",
+      "job_title",
+      "category",
+      "job_description",
+      "job_text",
+      "clean_skills",
+      "clean_skills_json",
+      "education_text",
+      "years_required",
+      "embedding"
+    ],
+    "matches": [
+      "candidate_id",
+      "job_id",
+      "final_score",
+      "raw_score",
+      "label_strength",
+      "semantic_score",
+      "skill_score",
+      "position_score",
+      "category_score",
+      "experience_score",
+      "education_score",
+      "candidate_rank",
+      "candidate_rank_pct"
+    ]
+  },
+  "blank_resume_texts": 0,
+  "blank_job_descriptions": 0,
+  "duplicate_candidate_ids": 0,
+  "duplicate_job_ids": 0,
+  "seed": 42,
+  "sampling_target": {
+    "jobs": 20,
+    "resumes": 100
+  },
+  "note": "Licensing, privacy, and truncation still require review before research use.",
+  "selected_rows": {
+    "jobs": 20,
+    "resumes": 100,
+    "links": 100
+  },
+  "sample_candidate_ids": [
+    "cand_07540",
+    "cand_08321",
+    "cand_03419",
+    "cand_08864",
+    "cand_00872"
+  ]
+}

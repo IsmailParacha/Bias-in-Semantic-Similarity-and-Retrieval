@@ -1,0 +1,71 @@
+{
+  "selected_rows": {
+    "jobs": 20,
+    "resumes": 100,
+    "links": 100
+  },
+  "integrity_issues": {
+    "missing_job_links": 0,
+    "missing_candidate_links": 0,
+    "duplicate_jobs": 0,
+    "duplicate_resumes": 0
+  },
+  "token_check": {
+    "SBERT_all-MiniLM-L6-v2": {
+      "model": "sentence-transformers/all-MiniLM-L6-v2",
+      "max_tokens": 256,
+      "jobs": {
+        "min": 107,
+        "median": 609.5,
+        "p95": 1197.6,
+        "max": 1228,
+        "over_model_limit": 18,
+        "over_200_tokens": 18
+      },
+      "resumes": {
+        "min": 135,
+        "median": 299.0,
+        "p95": 445.84999999999997,
+        "max": 521,
+        "over_model_limit": 70,
+        "over_200_tokens": 93
+      }
+    },
+    "E5_base_v2": {
+      "model": "intfloat/e5-base-v2",
+      "max_tokens": 512,
+      "jobs": {
+        "min": 109,
+        "median": 611.5,
+        "p95": 1199.6,
+        "max": 1230,
+        "over_model_limit": 12,
+        "over_200_tokens": 18
+      },
+      "resumes": {
+        "min": 137,
+        "median": 301.0,
+        "p95": 447.84999999999997,
+        "max": 523,
+        "over_model_limit": 2,
+        "over_200_tokens": 93
+      }
+    }
+  },
+  "identifier_screen": {
+    "jobs": {
+      "email": 0,
+      "phone_like": 1,
+      "url": 1,
+      "linkedin": 0,
+      "empty_text": 0
+    },
+    "resumes": {
+      "email": 0,
+      "phone_like": 1,
+      "url": 0,
+      "linkedin": 0,
+      "empty_text": 0
+    }
+  }
+}

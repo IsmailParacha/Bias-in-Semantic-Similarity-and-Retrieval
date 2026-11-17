@@ -1,0 +1,7 @@
+# Large raw dataset
+/data/raw/cv.csv
+.csv
+# Python files
+__pycache__/
+*.pyc
+.venv//data/raw/cv.csv

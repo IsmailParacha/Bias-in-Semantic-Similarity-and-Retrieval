@@ -1,0 +1,8 @@
+pandas
+numpy
+transformers
+torch
+sentence-transformers
+scipy
+matplotlib
+seaborn
